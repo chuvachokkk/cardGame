@@ -1,0 +1,34 @@
+.create-card-form {
+    transition: background-color 0.3s ease-in-out;
+    background-color: #ab1e6b; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-card-form:hover {
+    background-color: #b7c013; 
+  }
+  
+  .create-card-button {
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease; 
+  }
+  
+  .create-card-button:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+  }
+  
+
+  .alert {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

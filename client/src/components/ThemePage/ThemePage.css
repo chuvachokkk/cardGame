@@ -1,0 +1,50 @@
+.theme-page-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+  }
+  
+  .auth-message {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+  }
+  
+  .theme-card {
+    width: 22rem;
+    height: 28rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .theme-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .theme-card-img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .theme-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .theme-card-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+
+  .theme-card.selected {
+    background-color: #04b1c8; 
+    border: 2px solid #4682b4; 
+  }
